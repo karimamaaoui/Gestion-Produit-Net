@@ -1,0 +1,37 @@
+﻿@model IEnumerable<projetGestionProduit.Models.Category>
+
+@{
+    ViewData["Title"] = "Liste des Catégories";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    <a href="@Url.Action("Create")" class="btn btn-success">Créer une nouvelle catégorie</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Nom de la catégorie
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var category in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => category.CategoryName)
+                </td>
+                <td>
+                    @Html.ActionLink("Détails", "Details", new { id = category.CategoryId }, new { @class = "btn btn-info" }) |
+                    @Html.ActionLink("Modifier", "Edit", new { id = category.CategoryId }, new { @class = "btn btn-warning" })) |
+                    @Html.ActionLink("Supprimer", "Delete", new { id = category.CategoryId }, new { @class = "btn btn-danger" }))
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
