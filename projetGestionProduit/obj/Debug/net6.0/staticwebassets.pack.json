@@ -245,28 +245,52 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\user\\source\\repos\\projetGestionProduit\\projetGestionProduit\\wwwroot\\products\\32376f25-8392-4764-a6be-9b12e3b653f2.PNG",
-      "PackagePath": "staticwebassets\\products\\32376f25-8392-4764-a6be-9b12e3b653f2.PNG"
+      "Id": "C:\\Users\\user\\source\\repos\\projetGestionProduit\\projetGestionProduit\\wwwroot\\products\\00f2c8cb-19ca-4f7e-91cf-dbbd9b58f73b.png",
+      "PackagePath": "staticwebassets\\products\\00f2c8cb-19ca-4f7e-91cf-dbbd9b58f73b.png"
     },
     {
-      "Id": "C:\\Users\\user\\source\\repos\\projetGestionProduit\\projetGestionProduit\\wwwroot\\products\\79351215-86a4-42ec-999f-311e3d45c997.PNG",
-      "PackagePath": "staticwebassets\\products\\79351215-86a4-42ec-999f-311e3d45c997.PNG"
+      "Id": "C:\\Users\\user\\source\\repos\\projetGestionProduit\\projetGestionProduit\\wwwroot\\products\\2.jpg",
+      "PackagePath": "staticwebassets\\products\\2.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\source\\repos\\projetGestionProduit\\projetGestionProduit\\wwwroot\\products\\9a1b52d2-e960-475f-91fd-e5a99b1f5adc.PNG",
-      "PackagePath": "staticwebassets\\products\\9a1b52d2-e960-475f-91fd-e5a99b1f5adc.PNG"
+      "Id": "C:\\Users\\user\\source\\repos\\projetGestionProduit\\projetGestionProduit\\wwwroot\\products\\22817c0e-d286-4e5a-bf6c-1ea3e04ddf75.png",
+      "PackagePath": "staticwebassets\\products\\22817c0e-d286-4e5a-bf6c-1ea3e04ddf75.png"
     },
     {
-      "Id": "C:\\Users\\user\\source\\repos\\projetGestionProduit\\projetGestionProduit\\wwwroot\\products\\9ad88ca0-7171-4118-8771-b743d2b6883d.PNG",
-      "PackagePath": "staticwebassets\\products\\9ad88ca0-7171-4118-8771-b743d2b6883d.PNG"
+      "Id": "C:\\Users\\user\\source\\repos\\projetGestionProduit\\projetGestionProduit\\wwwroot\\products\\2e5384a3-089b-4732-bc28-3c18593c25f5.png",
+      "PackagePath": "staticwebassets\\products\\2e5384a3-089b-4732-bc28-3c18593c25f5.png"
     },
     {
-      "Id": "C:\\Users\\user\\source\\repos\\projetGestionProduit\\projetGestionProduit\\wwwroot\\products\\d34199a6-a7da-4e1a-8205-885ec4f7f6bf.jpg",
-      "PackagePath": "staticwebassets\\products\\d34199a6-a7da-4e1a-8205-885ec4f7f6bf.jpg"
+      "Id": "C:\\Users\\user\\source\\repos\\projetGestionProduit\\projetGestionProduit\\wwwroot\\products\\3.jpg",
+      "PackagePath": "staticwebassets\\products\\3.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\source\\repos\\projetGestionProduit\\projetGestionProduit\\wwwroot\\products\\ffc7bb26-2946-4fe5-999b-c6e8e66ff9a2.PNG",
-      "PackagePath": "staticwebassets\\products\\ffc7bb26-2946-4fe5-999b-c6e8e66ff9a2.PNG"
+      "Id": "C:\\Users\\user\\source\\repos\\projetGestionProduit\\projetGestionProduit\\wwwroot\\products\\54eebe06-d7b5-4033-8d47-254b6c10ff6f.png",
+      "PackagePath": "staticwebassets\\products\\54eebe06-d7b5-4033-8d47-254b6c10ff6f.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\projetGestionProduit\\projetGestionProduit\\wwwroot\\products\\8db7d1d7-b49c-4aeb-adba-e6b2973d9486.png",
+      "PackagePath": "staticwebassets\\products\\8db7d1d7-b49c-4aeb-adba-e6b2973d9486.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\projetGestionProduit\\projetGestionProduit\\wwwroot\\products\\966a8814-6dc0-4c02-b3cf-92fa6e87fdd1.png",
+      "PackagePath": "staticwebassets\\products\\966a8814-6dc0-4c02-b3cf-92fa6e87fdd1.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\projetGestionProduit\\projetGestionProduit\\wwwroot\\products\\aaa2769f-9e0b-42c2-9450-786412bea47d.png",
+      "PackagePath": "staticwebassets\\products\\aaa2769f-9e0b-42c2-9450-786412bea47d.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\projetGestionProduit\\projetGestionProduit\\wwwroot\\products\\banner-img.png",
+      "PackagePath": "staticwebassets\\products\\banner-img.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\projetGestionProduit\\projetGestionProduit\\wwwroot\\products\\f672f7fe-fb84-4444-9e3b-adeda7500052.png",
+      "PackagePath": "staticwebassets\\products\\f672f7fe-fb84-4444-9e3b-adeda7500052.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\projetGestionProduit\\projetGestionProduit\\wwwroot\\products\\footer-logo.png",
+      "PackagePath": "staticwebassets\\products\\footer-logo.png"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.projetGestionProduit.props",

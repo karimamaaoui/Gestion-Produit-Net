@@ -85,6 +85,7 @@ namespace projetGestionProduit.Controllers
                     ImageFileName = newFileName,
                     Price = productDTO.Price,
                     ProductName = productDTO.ProductName,
+                    Description= productDTO.Description,
                 };
 
                 //product.CategoryId = Convert.ToInt32(Request.Form["CategoryId"]);
@@ -115,6 +116,7 @@ namespace projetGestionProduit.Controllers
                 ProductName = product.ProductName,
                 Price = product.Price,
                 CategoryId = product.CategoryId,
+                Description= product.Description,
             };
 
             ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryName", product.CategoryId);
@@ -143,7 +145,7 @@ namespace projetGestionProduit.Controllers
                 ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryName", product.CategoryId);
                 ViewData["ProductId"] = product.ProductId;
                 ViewData["ImageFileName"] = product.ImageFileName;
-
+                ViewData["Description"] = product.Description;
 
                 return View(productDto);
             }
@@ -153,6 +155,7 @@ namespace projetGestionProduit.Controllers
                 ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryName", product.CategoryId);
                 ViewData["ProductId"] = product.ProductId;
                 ViewData["ImageFileName"] = product.ImageFileName;
+                ViewData["Description"]=product.Description;
                 try
                 {
                     var existingProduct = await _context.Products.FindAsync(id);
@@ -178,6 +181,7 @@ namespace projetGestionProduit.Controllers
                     existingProduct.Price = productDto.Price;
                     existingProduct.CategoryId = productDto.CategoryId;
                     existingProduct.ImageFileName = newFileName;
+                    existingProduct.Description = productDto.Description;
                     _context.Update(existingProduct);
                     await _context.SaveChangesAsync();
                 }

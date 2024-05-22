@@ -11,8 +11,10 @@ namespace projetGestionProduit.Models
         public int CategoryId { get; set; }
         public virtual Category Category { get; set; }
         public string ImageFileName { get; set; } = "";
+        public string Description { get; set; }
+
         public DateTime CreatedAt { get; set; }
-        public Product(string productName, decimal price, int categoryId, Category category, string image)
+        public Product(string productName, decimal price, int categoryId, Category category, string image, string description)
         {
             ProductName = productName;
             Price = price;
@@ -20,7 +22,7 @@ namespace projetGestionProduit.Models
             Category = category;
             ImageFileName = image;
             this.CreatedAt = DateTime.Now;
-
+            Description = description;
         }
 
         public Product() { }

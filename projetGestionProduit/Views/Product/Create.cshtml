@@ -23,6 +23,12 @@
             </div>
 
             <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <textarea asp-for="Description" class="form-control" placeholder="Leave a Description" ></textarea>
+            </div>
+
+
+            <div class="form-group">
                 <label asp-for="ImageFileName" class="control-label"></label>
                 <input type="file" asp-for="ImageFileName" class="form-control" />
                 <span asp-validation-for="ImageFileName" class="text-danger"></span>

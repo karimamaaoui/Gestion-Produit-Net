@@ -75,7 +75,7 @@ namespace projetGestionProduit.Controllers
                     var claims = new List<Claim>
             {
                 new Claim(ClaimTypes.Name, user.Username),
-                // You can add more claims if needed
+                
             };
 
                     var userIdentity = new ClaimsIdentity(claims, "login");
